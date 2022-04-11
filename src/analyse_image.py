@@ -6,7 +6,7 @@ from src.box_locations import *
 
 def analyse_image(info_dict, image_name):
 
-    image = Image.open('images/' + image_name)
+    image = Image.open('images 2022/' + image_name)
     image_array = np.asarray(image)
     info_type = list(info_dict.keys())
 
