@@ -11,7 +11,7 @@ def main():
 
     extract_images_from_pdf()
 
-    for image_name in os.listdir('images'):
+    for image_name in os.listdir('images 2022'):
         analyse_image(data_dict, image_name)
         print("Analysed " + image_name + " ...")
 
